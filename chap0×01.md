@@ -236,4 +236,4 @@ uname -a
 
   [123](https://www.kernel.org/ )
   
-  
+  ![6](chap0×01.assets/6.png)
