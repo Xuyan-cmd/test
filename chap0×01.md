@@ -42,7 +42,7 @@
 lsb_release -a
 ```
 
-![Query_release_version](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\Query_release_version.png)
+![Query_release_version](chap0×01.assets/Query_release_version.png)
 
 ​				可以得到当前Ubuntu的发行版本代号为：20.04
 
@@ -73,7 +73,7 @@ lsb_release -a
 uname -a
 ```
 
-![Query_kernel_version_information](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\Query_kernel_version_information.png)
+![Query_kernel_version_information](chap0×01.assets/Query_kernel_version_information.png)
 
 可知当前所用Ubuntu20.04的内核版本为：5.4.0-65-generic
 
@@ -95,7 +95,7 @@ uname -a
     ip a
     ```
 
-    ![network_card_information](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\network_card_information.png)
+    ![network_card_information](chap0×01.assets/network_card_information.png)
 
 - ​	第二步，修改配置文件并应用
 
@@ -104,11 +104,11 @@ uname -a
     sudo netplan apply
     ```
 
-    ![NIC_configuration_information](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\NIC_configuration_information.png)
+    ![NIC_configuration_information](chap0×01.assets/NIC_configuration_information.png)
 
 - 再次查询网卡状态，并获取ip
 
-  ![new_network_card_information](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\new_network_card_information.png)
+  ![new_network_card_information](chap0×01.assets/new_network_card_information.png)
 
 ------
 
@@ -139,7 +139,7 @@ uname -a
     # server_user是服务器用户名，ipAddr是IP地址
     ```
 
-    ![Gitbash_implements_password-free_login](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\Gitbash_implements_password-free_login.png)
+    ![Gitbash_implements_password-free_login](chap0×01.assets/Gitbash_implements_password-free_login.png)
 
 - **在虚拟机上进行的操作**
 
@@ -154,7 +154,7 @@ uname -a
     sudo service ssh restart
     ```
 
-    ![sshd_config_query](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\sshd_config_query.png)
+    ![sshd_config_query](chap0×01.assets/sshd_config_query.png)
 
 - **在linux中输入`cat ~/.ssh/authorized_keys`，即可查看公钥内容**
 
@@ -162,7 +162,7 @@ uname -a
     cat ~/.ssh/authorized_keys
     ```
 
-    ![public_key_content](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\public_key_content.png)
+    ![public_key_content](chap0×01.assets/public_key_content.png)
 
 - **接下来，在cmd中输入`ssh username@remote`，即可免密登录虚拟机的Linux系统**
 
@@ -171,7 +171,7 @@ uname -a
     # username为用户名，remote为虚拟机的IP地址
     ```
 
-    ![Password-free_login_succeeded](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\Password-free_login_succeeded.png)
+    ![Password-free_login_succeeded](chap0×01.assets/Password-free_login_succeeded.png)
 
 - **在cmd中通过修改配置来实现别名登录**
 
@@ -199,7 +199,7 @@ uname -a
 
 - 接下来，就可以直接`ssh 你的名称`就能实现最快捷的免密登录啦！
 
-​	![name_login](C:\Users\86150\Desktop\2022-linux-public-Xuyan-cmd\chap0×01\img\name_login.png)
+​	![name_login](chap0×01.assets/name_login.png)
 
 ------
 
